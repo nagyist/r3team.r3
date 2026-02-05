@@ -1248,6 +1248,8 @@ export default {
 			this.cardsOrderByColumnBatchIndex = columnBatchIndex;
 			if(columnBatchIndex !== -1)
 				this.setOrder(this.columnBatches[columnBatchIndex],true,true);
+			else
+				this.setOrders(this.ordersOriginal);
 		},
 		cardsToggleOrderBy() {
 			const wasAsc = this.orders[0].ascending;
