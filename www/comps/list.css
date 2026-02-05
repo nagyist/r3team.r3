@@ -324,8 +324,14 @@
 .list-input-row-checkbox{
 	padding-right:5px;
 }
-.list-input-rows-wrap.multi-line .list-input-rows td{
+.list-input-rows.multi-line td{
 	border-bottom:1px dotted var(--color-border);
+}
+.list-input-rows.multi-line.clickable tr:hover{
+	box-shadow:inset 0 -3px 0 0 var(--color-accent3-alt);
+}
+.list-input-rows.multi-line.clickable tr:hover td{
+	border-bottom:1px solid transparent;
 }
 
 /* list as input field, flow */
