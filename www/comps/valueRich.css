@@ -60,13 +60,13 @@
 	box-sizing:border-box;
 	border:1px solid var(--color-border);
 	overflow:auto;
-	max-height:var(--row-height);
+	max-height:var(--row-height-content);
 	margin:0px 2px;
 }
 .value-rich .barcode.previewLarge,
 .value-rich .drawing.previewLarge,
 .value-rich .gallery-item.previewLarge{
-	max-height:calc(var(--row-height) * 4);
+	max-height:calc(var(--row-height-content) * 4);
 }
 .value-rich .gallery-item.placeholder{
 	width:98%;
